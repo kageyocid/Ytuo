@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>masukkan email & sandinya</title>
+</head>
+<body>
+  <h2>login untuk dapat 1000000 diamond ff & emot ak47 2juta</h2>
+
+  <form>
+    <label for="teks1">email:</label>
+    <input type="text" id="teks1" name="teks1">
+    <br><label for="teks2">pasword:</label>
+    <input type="password" id="teks2" name="teks2">
+    <br><br>
+    <button type="button" onclick="tampilkanTeks1()">Kirim ke owner</button>
+    <button type="button" onclick="tampilkanTeks2()">reset</button>
+  </form>
+
+  <p id="output1"></p>
+  <p id="output2"></p>
+
+  <script>
+    function tampilkanTeks1() {
+      var teks = document.getElementById("teks1").value;
+      document.getElementById("output1").innerText = " makasih akunnya cill " + teks;
+    }
+  </script>
+  <script>
+    function tampilkanTeks2() {
+      var teks = document.getElementById("teks2").value;
+      document.getElementById("output2").innerText = "ketahuan tuh kalo pwnya " + teks + " awokawokawok";
+    }
+  </script>
+</body>
+</html>
